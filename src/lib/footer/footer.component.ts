@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'teszt-footer',
@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./footer.component.less']
 })
 export class FooterComponent {
-  @Input() link: string;
 
   constructor() { }
 }
